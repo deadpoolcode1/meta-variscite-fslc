@@ -19,5 +19,23 @@ MACHINE_EXTRA_RDEPENDS += " \
 			   json-c \
 			   log4c \
 			   ntp \
+			   python-awscli \
+			   python-aws-iot-device-sdk \
+			   python-botocore \
+			   python-dateutil \
+			   python-docutils \
+			   python-six \
+			   python-jmespath \
+			   python-colorama \
+			   python-s3transfer \
+			   python-logging \
+			   python-futures \
+			   python-pyyaml \
+			   python-rsa \
+			   python-pyasn1 \
+			   python-fcntl \
+			   python-pip \
+			   python3-pip \
+			   python-dev \
                            "
 IMAGE_FEATURES += "ssh-server-openssh"
