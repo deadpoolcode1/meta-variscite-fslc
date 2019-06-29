@@ -12,4 +12,12 @@ MACHINE_EXTRA_RDEPENDS += " \
 			   openssl \
 			   ca-certificates \
 			   cryptsetup \
+			   tcpdump \
+			   curl \
+			   wget \
+			   rpm \
+			   json-c \
+			   log4c \
+			   ntp \
                            "
+IMAGE_FEATURES += "ssh-server-openssh"
