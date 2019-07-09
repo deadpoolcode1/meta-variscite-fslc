@@ -14,8 +14,8 @@ LOCALVERSION_imx6ul-var-dart = "-mx6ul"
 LOCALVERSION_imx7-var-som = "-mx7"
 
 SRCBRANCH = "imx_4.9.11_1.0.0_ga-var01"
-SRCREV = "91a2d54e41dc08455ecad9fdcf915591a17fe040"
-KERNEL_SRC ?= "git://github.com/varigit/linux-imx.git;protocol=git"
+SRCREV = "${AUTOREV}"
+KERNEL_SRC ?= "git://github.com/deadpoolcode1/appcard-yocto-rocko_kernel.git;protocol=git"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
 
 DEFAULT_PREFERENCE = "1"
