@@ -37,5 +37,7 @@ MACHINE_EXTRA_RDEPENDS += " \
 			   python-pip \
 			   python3-pip \
 			   python-dev \
+			   wlconf \
+			   iw \
                            "
 IMAGE_FEATURES += "ssh-server-openssh"
