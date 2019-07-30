@@ -39,5 +39,6 @@ MACHINE_EXTRA_RDEPENDS += " \
 			   python-dev \
 			   wlconf \
 			   iw \
+			   ca-certificates \
                            "
 IMAGE_FEATURES += "ssh-server-openssh"
